@@ -1,0 +1,26 @@
+.create{
+    width: 50%;
+    background-color: rgb(209, 82, 23);
+    margin: 2% auto;
+}
+.create1{
+    width: 60%;
+    margin: 5% auto;
+    font-size: 30px;
+}
+input{
+    width: 95%;
+    text-align: center;
+    font-size: 30px;
+}
+.create2{
+    width: 50%;
+    margin: 5% auto;
+    font-size: 20px;
+}
+.create3{
+    width: 50%;
+    margin: 5% auto;
+    margin-left: 25%;
+    font-size: 30px;
+}

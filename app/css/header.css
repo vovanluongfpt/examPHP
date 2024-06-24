@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+}
+/* phan dau trang*/
+header{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(174, 169, 169);
+    margin-top: 10px;
+}
+.logotimkiem{
+    margin: 3% auto;
+display: flex;
+position:relative;
+}
+.logo{
+    width: 50%;
+    text-align:right;
+    margin-left: 10%;
+}
+.logo img{
+    width: 30%;
+}
+.timkiem{
+    width: 50%;
+    text-align: left;
+}
+.timkiem img{
+    width: 60px;
+    position: relative;
+    top:-25%;
+    margin-left: 1%;
+}
+.timkiem input{
+    width: 40%;
+    height: 50%;
+    margin-left: 15%;
+    position: relative;
+    top:-55%;
+    border-radius: 5px;
+    color: rgb(112, 110, 110);
+    background-color: rgb(229, 224, 224);;
+}
+.trangchinh{
+    position: relative;
+    z-index: 1;
+}
+/* phan navbar menu */
+.boxmenu {
+    width: 85%;
+    height: 7%;
+    margin-top: -2%;
+    background-color: white;
+    z-index: 1;
+    margin-left: 8%;
+    position: fixed;
+}
+.boxmenu ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue; 
+}
+.boxmenu ul li{ 
+  margin:  0 auto;
+}
+.boxmenu ul li a{
+   color: rgb(78, 79, 80);
+ text-decoration: none;
+}
+.anhbia img{
+    width:100%;
+    margin-top: 4.1%;
+}
+/* phan phu kien*/
+.tonghopphukien{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+.tonghopphukien img{
+    width: 70%;
+    border-radius: 20px;
+}
+.phukien1{
+    display: flex;
+    text-align: center; 
+    
+}
+.phukien2{
+    display: flex;
+    text-align: center;
+    margin-top: 4%;
+
+}
+/*hrrrrrrrrrrrr */
+hr{
+    width: 90%;
+    margin-top: 1%;
+}
+/*  quang cao */
+.quangcao{
+    margin: 1% auto 3% auto;
+    display: flex;
+    width: 70%;
+} 
+.quangcao img{
+    border-radius: 10px;
+}
+/* qc3 */
+.quangcao3{
+display: flex;
+width:40%;
+height: 50%;
+margin: 0 auto 0 5%;
+}   
+.quangcao31 img{
+    width: 250px;
+    height: 95%;
+
+}
+.quangcao32 img{
+    width: 250px;
+    height: 95%;
+margin-left: 10%;
+}
+/* qc2*/
+.quangcao2{
+    width: 45%;
+}
+    /* qc1 */
+.quangcao1{
+    width: 45%;
+}
+.quangcao1 img{
+    width: 100%;
+    height: 600px
+}
+/* qc4 */
+.quangcao4 img{
+    width:530px;
+    height: 299px;
+    margin-left: 5%;
+}
+/* mau dong ho */
+.maudongho{
+    width: 75%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    font-size: 13px;
+    text-align: center;
+}
+.maudongho img{
+    width:75%;
+    border-radius: 10px;
+    
+}
+/* menu da cap */
+.thuonghieu{
+    display: none;
+}
+.boxmenu ul li:hover .thuonghieu{
+    display: block; 
+    position: absolute;
+    background-color: rgb(224, 201, 201);
+    text-align: left;
+    width: 100%;
+    margin-left: -6.5%;
+    margin-top: 1%;
+}
+.boxmenu ul li.thuonghieu:hover .boxmenu{
+    display: block; 
+    position: absolute;
+    background-color: rgb(224, 201, 201);
+    text-align: left;
+    width: 100%;
+    margin-left: -6.5%;
+    margin-top: 1%;
+}
+.boxmenu ul li:hover.thuonghieu ul{
+    display: block;
+}
+.boxmenu ul li:hover.thuonghieu ul li{
+    width: 220px;
+    text-align: center;
+}
+.thuonghieu  li{    
+font-size: 15px;
+}
+.thuonghieu li p{
+    font-size: 15px;
+}
+.boxmenu li :hover{    
+   color: brown;
+}
+.thuonghieu li :hover{
+  border-bottom: white;
+}
+/*    podsion : finde*/
+/* mấũ đồng hồ hover   */
+.maudongho1 a{
+    width: 520px;
+    overflow: hidden;
+}
+.maudongho1 a img{
+   max-width: 100%;
+   transition: all 0.5s ease-in-out;
+}
+.maudongho1:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.quangcao3 {
+    position: relative;
+}
+.quangcao3 a{
+    text-decoration: none;
+    color: white;
+}
+.quangcao31 .nam{
+    position: absolute;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    left: 15%;
+    bottom:20%;
+}
+.quangcao31 .xemngay{
+    position: absolute;
+    color: rgb(244, 236, 236);
+    letter-spacing: 5px;
+    font-size: 10px;
+    left: 15%;
+    bottom:10%;
+}
+.quangcao32{
+    position: relative;
+}
+.quangcao32 .nu{
+    position: absolute;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    left: 15%;
+    bottom:20%;
+}
+.quangcao32 .xemngay1{
+    position: absolute;
+    color: rgb(244, 236, 236);
+    letter-spacing: 5px;
+    font-size: 10px;
+    left: 15%;
+    bottom:10%;
+}
+.quangcao4{
+    position: relative;
+
+}
+.quangcao4 a{
+    text-decoration: none;
+    color: white;
+}
+.quangcao4 .dhd{
+    position: absolute;
+    color: rgb(244, 236, 236);
+    letter-spacing: 5px;
+    font-size: 20px;
+    left: 15%;
+    bottom: 20%;
+}
+.quangcao4 .xemngay2{
+    position: absolute;
+    color: rgb(244, 236, 236);
+    letter-spacing: 5px;
+    font-size: 10px;
+    left: 15%;
+    bottom:10%;
+}
+.quangcao1 a{
+    text-decoration: none;
+    color: white;
+}
+.quangcao1 {
+    position: relative;
+}
+.quangcao1 .bst{
+    position: absolute;
+    color: rgb(70, 189, 41);
+    letter-spacing: 5px;
+    font-size: 25px;  
+   margin-left: 22%;
+    bottom: 10%;
+}
+.quangcao1 .xemngay3{
+    position: absolute;
+    color: rgb(244, 236, 236);
+    letter-spacing: 5px;
+    font-size: 15px;
+    left: 22%;
+    bottom:5%;
+}
+/* dong ho nam */
+.dhn1{
+      width: 75%;
+        display: flex;
+        margin: 0 auto 0 auto;
+        font-size: 13px;
+        text-align: center;
+}
+.dhn1 img{
+    width:70%;        
+    height: 65%;
+    border-radius: 10px;
+    
+}
+.dhn2{
+    width: 75%;
+      display: flex;
+      margin: 0 auto 0 auto;
+      font-size: 13px;
+      text-align: center;
+}
+.dhn2 img{
+    width:70%;        
+    height: 65%;
+  border-radius: 10px;
+  
+}
+.dhnu1{
+    width: 75%;
+      display: flex;
+      margin: 0 auto 0 auto;
+      font-size: 13px;
+      text-align: center;
+     
+}
+.dhnu1 img{
+    width:70%;        
+    height: 65%;
+  border-radius: 10px;
+  
+}
+.dhnu2{
+    width: 75%;
+      display: flex;
+      margin: 0 auto 0 auto;
+      font-size: 13px;
+      text-align: center;
+}
+.dhnu2 img{
+  width:70%;        
+  height: 65%;
+  border-radius: 10px;
+  
+}
+/*  dong ho nam* nu */
+.donghonam{
+    margin: 3% auto 3% auto ;
+}
+.donghonu{
+    margin: 3% auto 3% auto ;
+}
+.maudongho1{
+    width: 40%;
+    height: 70%;
+    font-size: 15px;
+    margin: 2% 2%;
+}
+.maudongho1 img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin:3% auto ;
+}
+/* gioi han chu */
+.text{
+    width: 50%;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 25%;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.text:hover{
+    overflow:auto;
+}

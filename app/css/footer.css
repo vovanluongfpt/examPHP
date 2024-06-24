@@ -1,0 +1,49 @@
+ p img {
+    width: 100px;
+    height: 9%;
+}
+.imgtiktok{
+    width:160px;
+    height: 90px;
+}
+p{
+    width:35%;
+    margin: 1% auto;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: brown;
+    height:650px;
+
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul{
+    font-size: 25px;
+}
+.footer li{
+font-size: 20px;
+margin: 10% auto;
+}
+h1{
+    font-size: 30px;
+}
+.footer1{
+    margin-left: 5%;
+}
+.footer3{
+    display: flex;
+}
+.footer3 img{
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+}
+.footer1 img{
+    width: 120px;
+    height: 50px;
+}
